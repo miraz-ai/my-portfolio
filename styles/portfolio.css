@@ -10,12 +10,24 @@
 .button{
     background-color: #FD6E0A;
     border: none;
-    padding: 18.28px 35px 19.3px 36px;
+    padding: 18px 35px;
     font-weight: bold;
     border-radius: 5px;
     color: #ffffff;
     font-size: 20px;
     cursor: pointer;
+}
+.contact-button{
+    background-color: #ffffff;
+    border: none;
+    padding: 18px 35px;
+    margin-top: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #FD6E0A;
 }
 /* shared style */
 .font-open-sans{
@@ -35,7 +47,7 @@ header{
     background-color: #FFF8F3;
     padding-top: 50px;
     background: url('/images/developer.png') ,url(/images/header_bg.png),  #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
 }
 nav{
@@ -205,4 +217,48 @@ nav .menu a{
 }
 .resume-container hr{
     margin: 30px 0;
+}
+.text-center{
+    text-align: center;
+    padding-top: 50px;
+}
+footer{
+    margin-top: 114px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-container{
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+.footer-container .social{
+    max-width: 562px;
+
+}
+.footer-p {
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+.footer-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container .icons a{
+    margin-right:24px;
+}
+.footer-container form input[type="text"], input[type="email"], .footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
